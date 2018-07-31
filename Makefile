@@ -2,7 +2,7 @@
 
 CC      = g++
 CFLAGS  = -g -MMD -MP -std=c++14
-LDFLAGS =
+LDFLAGS = -lcrypto
 LIBS    =
 MKDIR   = mkdir
 RM      = rm
